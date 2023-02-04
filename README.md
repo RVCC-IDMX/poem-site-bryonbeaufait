@@ -12,7 +12,7 @@ The build process includes minifiying and autoprefixing of styles via the `postb
 
 **`npm install`**
 
->Run this command once to install the needed node modules.
+> Run this command once to install the needed node modules.
 
 ## Development Scripts
 
@@ -29,3 +29,9 @@ Use this as the "Publish command" if needed by hosting services such as Netlify.
 ## Resources
 
 <small>The starter was inspired by [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) by [@5t3ph](https://twitter.com/5t3ph)</small>
+
+Photo by [Nandkumar Patel](https://unsplash.com/photos/nV9ZZx98DSs)
+
+Poem: The Raven by Edgar Allan Poe
+
+The is a simple website which includes the poem The Raven by Edgar Allan Poe, accompanied with a photo by [Nandkumar Patel](https://unsplash.com/photos/nV9ZZx98DSs)
