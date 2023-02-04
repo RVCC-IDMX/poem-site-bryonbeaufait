@@ -1,16 +1,66 @@
-/* home */
-@use "../abstracts/variables" as var;
-@use "../base/typography" as type;
-
 body {
-  font-family: type.$font;
-  background-color: var.$bg-very-light;
-  width: min(100% - 2rem, 60ch);
-  margin-inline: auto;
-  margin-block: 4rem;
+  background-color: darkslategrey;
+  color: bisque;
+  font-weight: bold;
+  font-size: 16pt;
+  font-family: 'Nanum Myeongjo', serif;
+  /* text-align: center; */
+  padding: 1em;
+  max-width: 100%;
 }
 
-h1 {
-  color: var.$primary-color;
+body {
+  display: grid;
+  gap: 2rem;
+}
+
+header {
+  display: grid;
+  gap: 2rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.poem {
+  display: grid;
+  justify-content: center;
+}
+
+p {
+  padding-bottom: 2rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 60pt;
+}
+
+.author {
+  padding: 2rem 0;
   text-align: center;
+}
+/* Photo and Author */
+
+.raven {
+  display: grid;
+  grid-template-areas: 'stack';
+  justify-content: center;
+}
+
+.raven > * {
+  grid-area: stack;
+}
+
+.photo-author {
+  font-size: 10pt;
+  color: darkslategray;
+  padding-left: 0.5rem;
+  padding-top: 0.25rem;
+}
+
+@media screen and (min-width: 60em) {
+  header {
+    display: grid;
+    justify-content: center;
+  }
 }
